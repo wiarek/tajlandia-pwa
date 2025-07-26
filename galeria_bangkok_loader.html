@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria dynamiczna – Bangkok</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+        #menu {
+            padding: 1rem;
+            background: #eee;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        #content {
+            padding: 2rem;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <button onclick="loadGallery()">📷 Pokaż galerię Bangkok</button>
+    </div>
+    <div id="content">
+        <p>Kliknij przycisk, aby wczytać galerię bez przeładowania strony i bez utraty trybu pełnoekranu.</p>
+    </div>
+
+    <script>
+        function loadGallery() {
+            fetch('galeria_bangkok_3_8.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('content').innerHTML = html;
+                });
+        }
+    </script>
+</body>
+</html>

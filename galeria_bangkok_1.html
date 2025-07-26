@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeria – Bangkok 1</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .back {
+      margin-bottom: 1rem;
+      display: inline-block;
+      color: #4da3ff;
+      text-decoration: none;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery a img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery a:hover img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <a class="back" href="index.html">⬅️ Powrót do galerii głównej</a>
+  <h1>Galeria – Bangkok (3–8 października 2024)</h1>
+  <div class="gallery">
+    <a href="img/20241004_222810.jpg" data-lightbox="bangkok1"><img src="img/20241004_222810.jpg" alt="20241004_222810.jpg" /></a>
+    <a href="img/20241004_222815.jpg" data-lightbox="bangkok1"><img src="img/20241004_222815.jpg" alt="20241004_222815.jpg" /></a>
+    <a href="img/20241004_224726.jpg" data-lightbox="bangkok1"><img src="img/20241004_224726.jpg" alt="20241004_224726.jpg" /></a>
+    <a href="img/20241004_225241.jpg" data-lightbox="bangkok1"><img src="img/20241004_225241.jpg" alt="20241004_225241.jpg" /></a>
+    <a href="img/20241005_113141.jpg" data-lightbox="bangkok1"><img src="img/20241005_113141.jpg" alt="20241005_113141.jpg" /></a>
+    <a href="img/20241005_113349.jpg" data-lightbox="bangkok1"><img src="img/20241005_113349.jpg" alt="20241005_113349.jpg" /></a>
+    <a href="img/20241005_113401.jpg" data-lightbox="bangkok1"><img src="img/20241005_113401.jpg" alt="20241005_113401.jpg" /></a>
+    <a href="img/20241005_113622.jpg" data-lightbox="bangkok1"><img src="img/20241005_113622.jpg" alt="20241005_113622.jpg" /></a>
+    <a href="img/20241005_132426.jpg" data-lightbox="bangkok1"><img src="img/20241005_132426.jpg" alt="20241005_132426.jpg" /></a>
+    <a href="img/20241005_154417.jpg" data-lightbox="bangkok1"><img src="img/20241005_154417.jpg" alt="20241005_154417.jpg" /></a>
+    <a href="img/20241008_162137.jpg" data-lightbox="bangkok1"><img src="img/20241008_162137.jpg" alt="20241008_162137.jpg" /></a>
+    <a href="img/20241008_173955.jpg" data-lightbox="bangkok1"><img src="img/20241008_173955.jpg" alt="20241008_173955.jpg" /></a>
+    <a href="img/IMG_20241003_070336.jpg" data-lightbox="bangkok1"><img src="img/IMG_20241003_070336.jpg" alt="IMG_20241003_070336.jpg" /></a>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>

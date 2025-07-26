@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Opis hotelu</title>
+<style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #114b7d;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      padding: 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #114b7d;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery div {
+      background-color: #ddd;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      color: #666;
+      border-radius: 8px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .map-link {
+      margin-top: 1rem;
+      display: inline-block;
+      color: #114b7d;
+      text-decoration: underline;
+    }
+    .section {
+      margin-top: 1.5rem;
+      line-height: 1.6;
+    }
+  
+.gallery a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.gallery a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.lightbox-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.lightbox-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 0 20px #fff;
+}
+
+.lightbox-prev, .lightbox-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  color: white;
+  font-size: 3rem;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+.lightbox-prev { left: 20px; }
+.lightbox-next { right: 20px; }
+</style>
+</head>
+<body>
+<header>The Pool Resort – Bangkok (11–12 marca 2026)</header>
+<div class="container">
+<h2>Galeria zdjęć</h2>
+<div class="gallery"><div><a href="img/hotel3/105521838.jpg"><img alt="105521838.jpg" src="img/hotel3/105521838.jpg"/></a></div><div><a href="img/hotel3/250253892.jpg"><img alt="250253892.jpg" src="img/hotel3/250253892.jpg"/></a></div><div><a href="img/hotel3/250254260.jpg"><img alt="250254260.jpg" src="img/hotel3/250254260.jpg"/></a></div><div><a href="img/hotel3/250254511.jpg"><img alt="250254511.jpg" src="img/hotel3/250254511.jpg"/></a></div><div><a href="img/hotel3/250254516.jpg"><img alt="250254516.jpg" src="img/hotel3/250254516.jpg"/></a></div><div><a href="img/hotel3/250254517.jpg"><img alt="250254517.jpg" src="img/hotel3/250254517.jpg"/></a></div><div><a href="img/hotel3/250254519.jpg"><img alt="250254519.jpg" src="img/hotel3/250254519.jpg"/></a></div><div><a href="img/hotel3/250254666.jpg"><img alt="250254666.jpg" src="img/hotel3/250254666.jpg"/></a></div></div>
+<h2>Lokalizacja</h2>
+<div class="section">
+  Hotel położony jest w dzielnicy Suan Luang, w spokojnej części Bangkoku, dogodnej dojazdem do centrum.
+  <br/>
+<a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=43%2F2+Rama+9+Road+Soi+57%2F1%2C+Suan+Luang%2C+Suan+Luang%2C+10250+Bangkok%2C+Thailand" target="_blank">Zobacz na mapie Google →</a>
+<br/><a class="map-link" href="https://www.booking.com/hotel/th/the-pool-resort.pl.html?label=pl-de-booking-desktop-FoC4cEVZ3SFJox4q3lO0wQS652829001040%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-1427517715%3Alp9043755%3Ali%3Adec%3Adm&amp;sid=cf8a35d2a453137cfd62baab955192d5&amp;aid=2311236" target="_blank">Zobacz stronę obiektu na Booking.com →</a></div>
+<h2>Opis hotelu</h2>
+<div class="section">The Pool Resort to kameralny hotel położony w dzielnicy Suan Luang w Bangkoku, oferujący 19 klimatyzowanych pokoi z balkonami i widokiem na basen. Obiekt zapewnia spokojną atmosferę, idealną dla podróżnych szukających relaksu z dala od miejskiego zgiełku. Goście mają do dyspozycji odkryty basen, zadbany ogród oraz restaurację serwującą dania kuchni tajskiej i lokalne specjały. Pokoje są prosto, ale komfortowo urządzone i wyposażone w niezbędne udogodnienia, takie jak Wi-Fi, klimatyzacja i prywatna łazienka. Personel hotelu jest przyjazny i chętnie pomaga w organizacji transportu lub udziela informacji turystycznych. To dobre miejsce na krótki pobyt w stolicy, z dogodnym dojazdem do lotniska oraz stacji kolei miejskiej ARL.</div>
+<h2>Informacje praktyczne</h2>
+<div class="section">• Cena za noc: od około 14 USD (ok. 500 THB), w zależności od sezonu i typu pokoju<br/>• Rezerwacja: dostępna przez Booking.com, Agoda oraz inne popularne platformy rezerwacyjne<br/>• Transport: hotel oddalony o około 14 km od lotniska Suvarnabhumi; w pobliżu znajdują się stacje ARL Hua Mak (2,8 km) i Ramkhamhaeng (6,1 km)<br/>• Udogodnienia: bezpłatne Wi-Fi w całym obiekcie, odkryty basen, restauracja, bar, całodobowa recepcja oraz bezpłatny parking</div>
+<div class="block"><strong>Dodatkowe usługi</strong><ul><li>Basen</li><li>Wi-Fi</li><li>Ogród</li><li>Restauracja</li><li>Rodzinne pokoje</li></ul></div></div>
+<div class="lightbox-overlay"><button class="lightbox-prev">‹</button><img/><button class="lightbox-next">›</button></div><script>
+const images = Array.from(document.querySelectorAll('a[href$=".jpg"]'));
+let currentIndex = 0;
+
+function showImage(index) {
+  const overlay = document.querySelector(".lightbox-overlay");
+  const img = overlay.querySelector("img");
+  img.src = images[index].href;
+  overlay.style.display = "flex";
+  currentIndex = index;
+}
+
+images.forEach((link, index) => {
+  link.addEventListener("click", function(e) {
+    e.preventDefault();
+    showImage(index);
+  });
+});
+
+document.querySelector(".lightbox-overlay").addEventListener("click", function(e) {
+  if (!e.target.classList.contains("lightbox-prev") && !e.target.classList.contains("lightbox-next")) {
+    this.style.display = "none";
+    this.querySelector("img").src = "";
+  }
+});
+
+document.querySelector(".lightbox-prev").addEventListener("click", function(e) {
+  e.stopPropagation();
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  showImage(currentIndex);
+});
+
+document.querySelector(".lightbox-next").addEventListener("click", function(e) {
+  e.stopPropagation();
+  currentIndex = (currentIndex + 1) % images.length;
+  showImage(currentIndex);
+});
+</script></body>
+<div style="text-align: center; margin: 20px 0 40px 0;">
+  <a href="index.html" style="
+    display: inline-block;
+    background-color: #004b87;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;">
+    🔙 Powrót do strony głównej
+  </a>
+</html>
